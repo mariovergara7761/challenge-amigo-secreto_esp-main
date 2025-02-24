@@ -1,9 +1,7 @@
 /*Funcionalidades:
 commit "agregar nombre" Agregar nombres: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar". Validar entrada: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
-
-comit "actualizar lista"Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
-
-Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.*/
+commit "actualizar lista"Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
+commit "Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.*/
 
 let amigos = [];
 
@@ -34,3 +32,24 @@ function actualizarLista() {
         lista.appendChild(li);
     }
 }
+
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("No hay amigos para el sorteo.");
+        return;
+    }
+    let numeroAleatorio = Math.floor(Math.random()*amigos.length);
+    let amigoSeleccionado = amigos[numeroAleatorio];
+
+    mostrarResultado(amigoSeleccionado);
+}
+
+function mostrarResultado(amigo){ 
+    let listaResultado = document.getElementById("resultado");
+    listaResultado.innerHTML = "";
+    let li = document.createElement("li");
+    li.textContent = `Amigo sorteado: ${amigo}`;
+    listaResultado.appendChild(li);
+}
+
+
