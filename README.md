@@ -48,7 +48,7 @@ Bienvenido al **Challenge de Amigo Secreto**, un divertido proyecto en JavaScrip
 
 ¿Tienes ideas para mejorar este proyecto? ¡Eres bienvenido a contribuir! 
 
-## 📌 Auor
+## 📌 Autor
 
 Creado con ❤️ por **MARIO**. ¡Disfruta el sorteo y diviértete! 🎁
 
