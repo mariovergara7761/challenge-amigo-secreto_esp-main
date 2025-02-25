@@ -1,6 +1,6 @@
 # 🎉 Challenge Amigo Secreto 🎁
 
-Bienvenido al **Challenge de Amigo Secreto**, un divertido proyecto en JavaScript organizar un sorteo de amigo secreto de manera rapida y sencilla. Agrega los nombres de tus amigos a la lista y sortear aleatoriamente un amigo secreto. ¡Ideal para fiestas y celebraciones! 🥳
+Bienvenido al **Challenge de Amigo Secreto**, un divertido proyecto en JavaScript que organizar un sorteo de amigo secreto de manera rapida y sencilla. Agrega los nombres de tus amigos a la lista y sortear aleatoriamente un amigo secreto. ¡Ideal para fiestas y celebraciones! 🥳
 
 ## 🚀 Funcionalidades
 
@@ -20,37 +20,35 @@ Bienvenido al **Challenge de Amigo Secreto**, un divertido proyecto en JavaScrip
 
 ### 🌟 Agregando nombres:
 
-https://github.com/user-attachments/assets/1b122191-e56b-4623-a372-30f798db9fd3
+[video_agregar_nombres](https://github.com/user-attachments/assets/1b122191-e56b-4623-a372-30f798db9fd3)
+
 📌 Los nombres se añaden a la lista visible.
 
 ### 🎰 Sorteo de amigo secreto:
 
-https://github.com/user-attachments/assets/e19b7955-a519-4e6f-9714-92078efa405a
+[video_sortear_amigos](https://github.com/user-attachments/assets/e19b7955-a519-4e6f-9714-92078efa405a)
+
 🎁 Un amigo secreto es seleccionado aleatoriamente.
 
 ## 🎨 Animaciones y estilo
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
 ¡Este proyecto no solo es funcional sino también dinámico! Algunas ideas para mejorar la experiencia:
 - 💡 **Animaciones CSS** para efectos de entrada y salida de nombres.
 - 🎨 **Transiciones suaves** al actualizar la lista.
 - 🔄 **Efecto de giro** en el botón de sorteo.
 
-## 💻 Instalación y ejecución
+## 💻 Tecnologías utilizadas
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/challenge-amigo-secreto.git
-   ```
-2. Abre el archivo `index.html` en tu navegador.
-3. ¡Disfruta del sorteo de amigo secreto! 🎉
+1. HTML
+2. CSS
+3. JavaScript
 
 ## 🤝 Contribuciones
 
-¿Tienes ideas para mejorar este proyecto? ¡Eres bienvenido a contribuir! Solo haz un fork y envía un pull request.
+¿Tienes ideas para mejorar este proyecto? ¡Eres bienvenido a contribuir! 
 
-## 📜 Licencia
+## 📌 Auor
 
-Este proyecto está bajo la licencia MIT.
+Creado con ❤️ por **MARIO**. ¡Disfruta el sorteo y diviértete! 🎁
 
----
-🚀 ¡Diviértete sorteando a tu Amigo Secreto! 🎁
